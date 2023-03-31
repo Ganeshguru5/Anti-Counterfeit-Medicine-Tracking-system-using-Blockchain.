@@ -1,0 +1,64 @@
+step 1: create empty folder
+step 2: Go inside folder using vs code and open terminal.
+step 3: run   npm install -g truffle@5.1.8
+step 4: truffle unbox react
+step 5:npm install --save-dev @truffle/hdwallet-provider //outside client folder
+step 6:npm install dotenv //outside client folder
+step 7:npm i -g solc
+step 7 :truffle migrate --network ropsten_infura
+step 8:setup metamask while running cd client && npm start
+step 9: npm install --save react@17.0.2
+step 10: npm install react-bootstrap bootstrap@5.1.3
+    const response = await contract.methods.patient_login_validate("0xb692926159De1668B6f336B8253e2f5D15b6B055","yadav").call()
+
+
+
+
+for compiler change:
+
+https://ethereum.stackexchange.com/questions/46158/solved-how-to-change-solidity-linter-solc-compiler-version-in-visual-studio-c
+
+if EVM revert error in metamask.. then go to metamask setting -> security and privacy -> copy passphrase and replace it in .env.. then run
+truffle migrate --network ropsten_infura --reset
+truffle migrate --development --reset
+truffle deploy --development --reset
+
+metadesk secret:loud lamp found renew maze infant fatigue purpose bleak crazy ripple arrest
+
+password:myfriendslife
+
+
+const response = await contract.methods.patient_login_validate("0xb692926159De1668B6f336B8253e2f5D15b6B055","yadav").call()
+const response = await contract.methods.signup_patients("0xb692926159De1668B6f336B8253e2f5D15b6B055","0xb692926159De1668B6f336B8253e2f5D15b6B055","yadav","yadav",26).send({from:"0xb692926159De1668B6f336B8253e2f5D15b6B055"})
+
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x990819cac867ad293ed03815bd0b94354c61b8a3be6814b3153d814c891142d0
+   > Blocks: 0            Seconds: 9
+   > contract address:    0xCa7AEAD2dc96946F154E67e3C5351FDb2b1423e6
+   > block number:        11542222
+   > block timestamp:     1638499867
+   > account:             0xA8bA7DcC05E749C33C9456213E3b779540d2f201
+   > balance:             0.941241546599265002
+   > gas used:            165475
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0033095 ETH
+
+
+   Deploying 'SimpleStorage'
+   -------------------------
+   > transaction hash:    0xfa9b69fd44bdb6be10b5e5110ca4db06bf8e15a6e238bd2633ad549db612d5fa
+   > Blocks: 0            Seconds: 21
+   > contract address:    0x899A1C98AE3544903aA2ea83f6390b4d76F2BA81
+   > block number:        11542225
+   > block timestamp:     1638499896
+   > account:             0xA8bA7DcC05E749C33C9456213E3b779540d2f201
+   > balance:             0.938402946599265002
+   > gas used:            96189
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00192378 ETH
+
+

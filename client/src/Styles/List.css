@@ -1,0 +1,19 @@
+.listcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f2f6fd;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 6px;
+}
+.buybtn{
+    margin-right: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

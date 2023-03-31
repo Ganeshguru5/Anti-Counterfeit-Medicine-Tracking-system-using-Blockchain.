@@ -1,0 +1,57 @@
+.ProfileCon{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.Detailcon{
+    display: flex;
+    flex-direction: row;
+}
+.detailone{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.detailtwo{
+    width: 50%;
+}
+.titilepropon{
+    font-size: 70px;
+    width: 60%;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.titilepropondes{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    color: grey;
+    width: 50%;
+}
+.expvideo{
+    width: 300px;
+}
+.Explore1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Explore2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.feature1{
+    font-size: 23px;
+    font-weight: 500;
+    width: 60%;
+}
+.feature2{
+    font-size: 13px;
+    font-weight: 500;
+    color: "grey";
+    width: 60%;
+}
