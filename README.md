@@ -32,5 +32,4 @@ To run this project on your system.
   ```
 
 * User interface is updated to my own ideation
-* Username:naveenrenter@gmail.com Password : 123456 (Use this login for better interaction as owner or you can create yours)
 
